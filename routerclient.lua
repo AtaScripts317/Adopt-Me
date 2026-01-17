@@ -7,7 +7,7 @@ local Fsys = loadstring(game:HttpGet("https://raw.githubusercontent.com/AtaScrip
 local load = Fsys.load
 
 local SimpleEvents = load("SimpleEvents")
-local LoadTimers = require(game.ReplicatedFirst.Load.LoadTimers)
+local LoadTimers = loadstring(game:HttpGet("https://raw.githubusercontent.com/AtaScripts317/Adopt-Me/refs/heads/main/LoadTimers.luau", true))() 
 
 local RouterClient = {}
 
